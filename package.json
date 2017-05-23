@@ -1,0 +1,36 @@
+{
+  "name": "electron-desktop-app",
+  "version": "0.0.1",
+  "description": "A desktop app build over electron.",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/jasonLiu001/electron-desktop-app",
+  "keywords": [
+    "electron",
+    "angular",
+    "node"
+  ],
+  "author": "wangliu",
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "angular-in-memory-web-api": "~0.3.0",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "@types/typescript": "^2.0.0",
+    "electron": "^1.6.8",
+    "typescript": "^2.3.3"
+  }
+}
